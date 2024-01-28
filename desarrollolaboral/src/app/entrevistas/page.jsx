@@ -6,7 +6,7 @@ export default function Entrevistas() {
       <div className="container px-4 md:px-6">
         <div className="space-y-8">
           <div className="space-y-2 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Interview Tips</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Tips Entrevistas</h2>
             <p
               className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               Essential tips to ace your next interview.
@@ -14,20 +14,20 @@ export default function Entrevistas() {
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:gap-10">
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold">Common Interview Questions</h3>
+              <h3 className="text-2xl font-bold">Preguntas tipicas de entrevistas</h3>
               <p className="text-gray-500 dark:text-gray-400">
                 Prepare for common interview questions like "Tell me about yourself", "Why should we hire you?", "What
                 are your strengths and weaknesses?", and "Where do you see yourself in 5 years?".
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold">Body Language Tips</h3>
+              <h3 className="text-2xl font-bold">Preguntas de tecnologias</h3>
               <p className="text-gray-500 dark:text-gray-400">
                 Maintain eye contact, use hand gestures to emphasize points, sit up straight, and remember to smile.
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold">Preparation Strategies</h3>
+              <h3 className="text-2xl font-bold">Estrategia de preparacion</h3>
               <p className="text-gray-500 dark:text-gray-400">
                 Research the company, understand the job description, prepare thoughtful questions, and practice your
                 responses.
@@ -41,10 +41,10 @@ export default function Entrevistas() {
       <div className="container px-4 md:px-6">
         <div className="space-y-8">
           <div className="space-y-2 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Practice Platforms</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Plataformas de practica</h2>
             <p
               className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Explore these platforms to practice your interview skills.
+              Utiliza estas plataformas para practicar tus entrevistas.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-10">

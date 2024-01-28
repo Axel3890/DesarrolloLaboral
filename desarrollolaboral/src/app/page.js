@@ -8,15 +8,10 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Welcome to our website
+              Tu Guía para el Empleo en IT
               </h1>
               <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                We provide high quality services for your business. Our team of
-                experts are dedicated to delivering exceptional results. We work
-                closely with our clients to understand their needs and provide
-                tailored solutions. We are committed to excellence and strive to
-                exceed expectations. Join us today and experience the
-                difference.
+              En CarreraIT, estamos dedicados a ayudarte a alcanzar tus metas profesionales en el emocionante campo de la tecnología de la información. ¿Buscas tu próximo desafío laboral? ¡Estás en el lugar correcto!
               </p>
             </div>
             <Link
