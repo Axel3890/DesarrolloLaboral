@@ -1,5 +1,6 @@
 import { CardHeader, CardTitle, CardDescription, CardContent, CardFooter, Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import Image from "next/image";
 
 export default function Plataformas() {
   return (
@@ -9,7 +10,7 @@ export default function Plataformas() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Plataformas para buscar tu proximo trabajo</h2>
           <p
             className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            Discover job opportunities on various platforms.
+            Descubre tu proximo empleo en estas plataformas
           </p>
         </div>
         <div
@@ -18,14 +19,14 @@ export default function Plataformas() {
             <CardHeader>
               <img
                 alt="LinkedIn Logo"
-                className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
+                className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center re"
                 height="70"
-                src="/placeholder.svg"
+                src="/icons/trabajos/linkedin.png"
                 width="140" />
             </CardHeader>
             <CardContent className="space-y-2">
               <CardTitle>LinkedIn</CardTitle>
-              <CardDescription>Connect with professionals and find opportunities.</CardDescription>
+              <CardDescription>Puedes buscar empleos, conectar con reclutadores y profesionales del sector, y también mejorar tu perfil para destacar tus habilidades y experiencia.</CardDescription>
             </CardContent>
             <CardFooter>
               <Button variant="link">Learn more</Button>
@@ -37,12 +38,12 @@ export default function Plataformas() {
                 alt="Indeed Logo"
                 className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                 height="70"
-                src="/placeholder.svg"
+                src="/icons/trabajos/indeed.png"
                 width="140" />
             </CardHeader>
             <CardContent className="space-y-2">
               <CardTitle>Indeed</CardTitle>
-              <CardDescription>Discover jobs from all sectors and industries.</CardDescription>
+              <CardDescription>Recopila listados de empleo de varias fuentes, incluyendo sitios web de empresas y agencias de reclutamiento. Tiene una amplia gama de oportunidades en el campo de IT.</CardDescription>
             </CardContent>
             <CardFooter>
               <Button variant="link">Learn more</Button>
@@ -54,12 +55,12 @@ export default function Plataformas() {
                 alt="Glassdoor Logo"
                 className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                 height="70"
-                src="/placeholder.svg"
+                src="/icons/trabajos/glassdoor.png"
                 width="140" />
             </CardHeader>
             <CardContent className="space-y-2">
               <CardTitle>Glassdoor</CardTitle>
-              <CardDescription>Find jobs and get insights about companies.</CardDescription>
+              <CardDescription>No solo ofrece listados de empleo, sino también reseñas de empresas, salarios y entrevistas. Puedes obtener una visión interna de las empresas y sus culturas antes de postularte.</CardDescription>
             </CardContent>
             <CardFooter>
               <Button variant="link">Learn more</Button>
@@ -68,15 +69,15 @@ export default function Plataformas() {
           <Card>
             <CardHeader>
               <img
-                alt="Monster Logo"
+                alt="computrabajo Logo"
                 className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                 height="70"
-                src="/placeholder.svg"
+                src="/icons/trabajos/computrabajo.png"
                 width="140" />
             </CardHeader>
             <CardContent className="space-y-2">
-              <CardTitle>Monster</CardTitle>
-              <CardDescription>Explore jobs worldwide and boost your career.</CardDescription>
+              <CardTitle>Computrabajos</CardTitle>
+              <CardDescription>Busca trabajo en Argentina? Computrabajo es la bolsa de empleo líder y con mas ofertas de trabajo de Argentina.</CardDescription>
             </CardContent>
             <CardFooter>
               <Button variant="link">Learn more</Button>

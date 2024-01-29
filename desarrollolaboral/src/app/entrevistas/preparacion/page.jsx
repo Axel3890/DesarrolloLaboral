@@ -4,34 +4,37 @@ export default function Component() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                Interview Preparation
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-custom-green">
+                Preparate para la entrevista
               </h1>
-              <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Preparing for an interview is a crucial step in securing a job. Here are some tips to help you excel in
-                your interview.
+              <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-custom-white">
+              Prepararse para una entrevista es esencial porque demuestra tu interés y compromiso con el trabajo y la empresa, te permite destacar tus habilidades y experiencias relevantes de manera efectiva.
               </p>
             </div>
             <div className="flex flex-col items-start space-y-2 text-left">
               <div className="flex items-center space-x-2">
-                <CheckIcon className="h-6 w-6 text-green-500" />
-                <p className="text-lg font-medium">Research the company</p>
+                <CheckIcon className="h-6 w-6 text-custom-green" />
+                <p className="text-lg font-medium text-custom-white">Investigación de la empresa</p>
               </div>
               <div className="flex items-center space-x-2">
-                <CheckIcon className="h-6 w-6 text-green-500" />
-                <p className="text-lg font-medium">Practice common interview questions</p>
+                <CheckIcon className="h-6 w-6 text-custom-green" />
+                <p className="text-lg font-medium text-custom-white">Repasa tu currículum y la oferta de trabajo</p>
               </div>
               <div className="flex items-center space-x-2">
-                <CheckIcon className="h-6 w-6 text-green-500" />
-                <p className="text-lg font-medium">Prepare questions to ask the interviewer</p>
+                <CheckIcon className="h-6 w-6 text-custom-green" />
+                <p className="text-lg font-medium text-custom-white">Practica respuestas a preguntas comunes de entrevistas</p>
               </div>
               <div className="flex items-center space-x-2">
-                <CheckIcon className="h-6 w-6 text-green-500" />
-                <p className="text-lg font-medium">Dress professionally</p>
+                <CheckIcon className="h-6 w-6 text-custom-green" />
+                <p className="text-lg font-medium text-custom-white">Prepara preguntas para el entrevistador</p>
               </div>
               <div className="flex items-center space-x-2">
-                <CheckIcon className="h-6 w-6 text-green-500" />
-                <p className="text-lg font-medium">Bring copies of your resume</p>
+                <CheckIcon className="h-6 w-6 text-custom-green" />
+                <p className="text-lg font-medium text-custom-white">Prepara ejemplos concretos</p>
+              </div>
+              <div className="flex items-center space-x-2">
+                <CheckIcon className="h-6 w-6 text-custom-green" />
+                <p className="text-lg font-medium text-custom-white">Mantén la calma y confianza</p>
               </div>
             </div>
           </div>

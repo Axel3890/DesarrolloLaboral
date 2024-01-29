@@ -1,54 +1,36 @@
 
 import { CollapsibleTrigger, CollapsibleContent, Collapsible } from "@/components/ui/collapsible"
 
-export default function Viewquestions() {
+async function getData(name){ 
+  const data = await fetch(`http://localhost:3000/api/preguntas/${name}`)
+  const res = await data.json()
+  return res
+}
+ 
+export default async function Viewquestions({params}) {
+  const preguntas = await getData(params.name)
   return (
     (<section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Frequently Asked Questions</h2>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-custom-green">Preguntas frecuentes sobre {params.name}</h2>
         </div>
         <div className="space-y-6">
-          <Collapsible>
-            <CollapsibleTrigger asChild>
-              <div
-                className="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-md cursor-pointer dark:bg-gray-800">
-                <h3 className="text-lg font-medium">What is the technology?</h3>
-                <ChevronDownIcon className="h-5 w-5" />
-              </div>
-            </CollapsibleTrigger>
-            <CollapsibleContent>
-              <div className="px-4 py-2 text-gray-500 dark:text-gray-400">
-                The technology is a revolutionary tool that helps in...
-              </div>
-            </CollapsibleContent>
-          </Collapsible>
-          <Collapsible>
-            <CollapsibleTrigger asChild>
-              <div
-                className="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-md cursor-pointer dark:bg-gray-800">
-                <h3 className="text-lg font-medium">How does it work?</h3>
-                <ChevronDownIcon className="h-5 w-5" />
-              </div>
-            </CollapsibleTrigger>
-            <CollapsibleContent>
-              <div className="px-4 py-2 text-gray-500 dark:text-gray-400">It works by leveraging the power of...</div>
-            </CollapsibleContent>
-          </Collapsible>
-          <Collapsible>
-            <CollapsibleTrigger asChild>
-              <div
-                className="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-md cursor-pointer dark:bg-gray-800">
-                <h3 className="text-lg font-medium">What are the benefits?</h3>
-                <ChevronDownIcon className="h-5 w-5" />
-              </div>
-            </CollapsibleTrigger>
-            <CollapsibleContent>
-              <div className="px-4 py-2 text-gray-500 dark:text-gray-400">
-                The benefits include improved efficiency, cost savings...
-              </div>
-            </CollapsibleContent>
-          </Collapsible>
+          {preguntas.map((preguntaRespuesta, index) => (
+            <Collapsible key={index}>
+              <CollapsibleTrigger asChild>
+                <div className="flex justify-between items-center px-4 py-2 bg-gray-100 rounded-md cursor-pointer dark:text-custom-white">
+                  <h3 className="text-lg font-medium text-custom-black">{preguntaRespuesta.Pregunta}</h3>
+                  <ChevronDownIcon className="h-5 w-5" />
+                </div>
+              </CollapsibleTrigger>
+              <CollapsibleContent className="bg-custom-green">
+                <div className="px-4 py-2 text-gray-500 dark:text-custom-white text-xl">
+                  {preguntaRespuesta.Respuesta}
+                </div>
+              </CollapsibleContent>
+            </Collapsible>
+          ))}
         </div>
       </div>
     </section>)
