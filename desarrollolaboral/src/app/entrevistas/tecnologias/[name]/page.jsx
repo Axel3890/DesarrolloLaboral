@@ -2,7 +2,7 @@
 import { CollapsibleTrigger, CollapsibleContent, Collapsible } from "@/components/ui/collapsible"
 
 async function getData(name){ 
-  const data = await fetch(`http://localhost:3000/api/preguntas/${name}`)
+  const data = await fetch(`https://desarrollo-laboral.vercel.app/api/preguntas/${name}`)
   const res = await data.json()
   return res
 }
