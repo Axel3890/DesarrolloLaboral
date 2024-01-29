@@ -21,10 +21,10 @@ export default function Entrevistas() {
                     Preguntas tipicas de entrevistas
                   </h3>
                   <p className="text-custom-white dark:text-custom-white">
-                    prepárese para preguntas comunes en entrevistas como "Háblame
-                    de ti", "¿Por qué deberíamos contratarte?", "¿Qué ¿Cuáles
-                    son tus fortalezas y debilidades?", y "¿Dónde te ves dentro
-                    de 5 años?".
+                    prepárese para preguntas comunes en entrevistas como Háblame
+                    de ti, ¿Por qué deberíamos contratarte?, ¿Qué ¿Cuáles
+                    son tus fortalezas y debilidades?, y ¿Dónde te ves dentro
+                    de 5 años?.
                   </p>
                 </div>
               </Link>

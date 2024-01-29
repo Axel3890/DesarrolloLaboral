@@ -167,7 +167,7 @@ export default function Pregutastipicas() {
             </CollapsibleTrigger>
             <CollapsibleContent className="space-y-2 bg-custom-white">
               <p className="text-xl">
-                "Estoy muy interesado en esta empresa/posición porque [menciona
+                Estoy muy interesado en esta empresa/posición porque [menciona
                 aspectos específicos de la empresa/posición que te atraen, como
                 su cultura empresarial, proyectos innovadores, oportunidades de
                 crecimiento, etc.]. Creo que mis habilidades y experiencia en
