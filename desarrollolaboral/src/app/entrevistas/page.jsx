@@ -7,9 +7,9 @@ export default function Entrevistas() {
         <div className="container px-4 md:px-6">
           <div className="space-y-8">
             <div className="space-y-2 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-custom-green">
-                Tips Entrevistas
-              </h2>
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-custom-green">
+                Tips Entrevistas y plataformas de practica para tu entrevista
+              </h1>
               <p className="mx-auto max-w-[700px] text-custom-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-custom-white">
                 Tips esenciales para tu proxima entrevista.
               </p>

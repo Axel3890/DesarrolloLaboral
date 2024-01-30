@@ -6,7 +6,7 @@ export default function Tecnologias() {
   return (
     (<section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
-        <h1 className="text-4xl font-bold text-center mb-10 text-custom-green">Preguntas sobre tecnicas sobre una tecnologia</h1>
+        <h1 className="text-4xl font-bold text-center mb-10 text-custom-green">Preguntas tecnicas sobre una tecnologia</h1>
         <div className="grid gap-6 lg:grid-cols-3 lg:gap-10">
          <Link href="/entrevistas/tecnologias/javascript"><Card>
             <CardHeader className="flex flex-row items-center gap-4">
@@ -71,7 +71,7 @@ export default function Tecnologias() {
               </div>
             </CardHeader>
           </Card></Link>
-          <Link href="/entrevistas/tecnologias/angulart"><Card>
+          <Link href="/entrevistas/tecnologias/angular"><Card>
             <CardHeader className="flex flex-row items-center gap-4">
             <svg width="100" height="100" viewBox="0 0 256 270" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><path d="M127.606.341L.849 44.95 20.88 211.022l106.86 58.732 107.412-59.528L255.175 44.16 127.606.341z" fill="#B3B3B3"/><path d="M242.532 53.758L127.31 14.466v241.256l96.561-53.441 18.66-148.523z" fill="#A6120D"/><path d="M15.073 54.466l17.165 148.525 95.07 52.731V14.462L15.074 54.465z" fill="#DD1B16"/><path d="M159.027 142.898L127.31 157.73H93.881l-15.714 39.305-29.228.54L127.31 23.227l31.717 119.672zm-3.066-7.467l-28.44-56.303-23.329 55.334h23.117l28.652.97z" fill="#F2F2F2"/><path d="M127.309 23.226l.21 55.902 26.47 55.377h-26.62l-.06 23.189 36.81.035 17.204 39.852 27.967.518-81.981-174.873z" fill="#B3B3B3"/></svg>
               <div className="grid gap-1">
@@ -89,7 +89,7 @@ export default function Tecnologias() {
               </div>
             </CardHeader>
           </Card></Link>
-          <Link href="/entrevistas/tecnologias/c#"><Card>
+          <Link href="/entrevistas/tecnologias/csharp"><Card>
             <CardHeader className="flex flex-row items-center gap-4">
             <svg height="100" preserveAspectRatio="xMidYMid" viewBox="0 -1.428 255.582 290.108" width="100" xmlns="http://www.w3.org/2000/svg"><path d="m255.569 84.452c-.002-4.83-1.035-9.098-3.124-12.76-2.052-3.603-5.125-6.622-9.247-9.009-34.025-19.619-68.083-39.178-102.097-58.817-9.17-5.294-18.061-5.1-27.163.27-13.543 7.986-81.348 46.833-101.553 58.536-8.321 4.818-12.37 12.19-12.372 21.771-.013 39.455 0 78.91-.013 118.365 0 4.724.991 8.91 2.988 12.517 2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.27 34.015-19.64 68.075-39.199 102.105-58.818 4.217-2.44 7.333-5.544 9.386-9.252 1.994-3.608 2.987-7.793 2.987-12.518 0 0 0-78.889-.013-118.345" fill="#a179dc"/><path d="m128.182 143.241-125.194 72.084c2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.27 34.015-19.64 68.075-39.199 102.105-58.818 4.217-2.44 7.333-5.544 9.386-9.252z" fill="#280068"/><path d="m255.569 84.452c-.002-4.83-1.035-9.098-3.124-12.76l-124.263 71.55 124.413 72.073c1.994-3.608 2.985-7.793 2.987-12.518 0 0 0-78.889-.013-118.345" fill="#390091"/><g fill="#fff"><path d="m201.892 116.294v13.474h13.474v-13.474h6.737v13.474h13.474v6.737h-13.474v13.473h13.474v6.737h-13.474v13.474h-6.737v-13.474h-13.474v13.474h-6.737v-13.474h-13.473v-6.737h13.473v-13.473h-13.473v-6.737h13.473v-13.474zm13.474 20.21h-13.474v13.474h13.474z"/><path d="m128.457 48.626c35.144 0 65.827 19.086 82.262 47.456l-.16-.273-41.35 23.808c-8.146-13.793-23.08-23.102-40.213-23.294l-.54-.003c-26.125 0-47.305 21.18-47.305 47.305a47.08 47.08 0 0 0 6.239 23.47c8.154 14.235 23.483 23.836 41.067 23.836 17.693 0 33.109-9.723 41.221-24.11l-.197.345 41.287 23.918c-16.255 28.13-46.518 47.157-81.253 47.536l-1.058.006c-35.255 0-66.025-19.204-82.419-47.724-8.003-13.923-12.582-30.064-12.582-47.277 0-52.466 42.532-95 95-95z"/></g></svg>
               <div className="grid gap-1">
