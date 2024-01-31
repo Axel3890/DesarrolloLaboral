@@ -14,7 +14,7 @@ export default function Pregutastipicas() {
             Preguntas tipicas de entrevistas
           </h1>
           <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-custom-white">
-            Aqui tienes una lista de preguntas tipicas de entrevistas en el mundo IT
+            Aqui tienes una lista de preguntas tipicas de entrevistas en el mundo IT.
           </p>
           <Collapsible className="space-y-2 bg-custom-green">
             <CollapsibleTrigger asChild>
