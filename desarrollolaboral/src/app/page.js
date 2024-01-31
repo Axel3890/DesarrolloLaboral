@@ -10,7 +10,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-custom-green">
             Tu Guía para el Empleo en IT
           </h1>
-          <p className="max-w-[600px] text-custom-white md:text-xl dark:text-custom-white">
+          <p className="max-w-[600px] text-custom-white md:text-xl dark:text-custom-white p-4">
             En Desarrollo laboral, estamos dedicados a ayudarte a alcanzar tus metas profesionales en el emocionante campo de la tecnología de la información. ¿Buscas tu próximo desafío laboral? ¡Estás en el lugar correcto! Aquí encontrarás recursos, consejos y oportunidades para impulsar tu carrera en IT.
           </p>
         </div>

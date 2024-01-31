@@ -1,5 +1,21 @@
 import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card";
 import Link from "next/link";
+
+export const metadata = {
+  title: "Desarrollo laboral - Consejos de Entrevistas",
+  description: "Consejos prácticos para prepararte y destacar en entrevistas laborales en el sector de la tecnología.",
+  keywords: ["entrevistas", "tecnología", "consejos de entrevistas", "empleo", "preparación entrevistas"],
+  icons: {
+    icon: ['/favicon.ico']
+  },
+  og: {
+    title: "Desarrollo laboral - Preguntas Típicas y Técnicas",
+    description: "Recopilación de preguntas comunes y técnicas en entrevistas laborales para roles tecnológicos, junto con consejos para responderlas de manera efectiva.",
+    image: "/preguntas-image.jpg",
+    url: "https://desarrollo-laboral.vercel.app/entrevistas"
+  }
+};
+
 export default function Entrevistas() {
   return (
     <>
@@ -8,7 +24,7 @@ export default function Entrevistas() {
           <div className="space-y-8">
             <div className="space-y-2 text-center">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-custom-green">
-                Tips Entrevistas y plataformas de practica para tu entrevista
+                Tips y plataformas de practica para tu entrevista
               </h1>
               <p className="mx-auto max-w-[700px] text-custom-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-custom-white">
                 Tips esenciales para tu proxima entrevista.
@@ -67,13 +83,13 @@ export default function Entrevistas() {
               </p>
             </div>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
-              <Card>
+              <a href="https://grow.google/certificates/interview-warmup/" target="blank"><Card>
                 <CardHeader>
                   <CardTitle>Interview Warmup</CardTitle>
                 </CardHeader>
                 <CardContent className="flex items-center gap-4 p-4">
                   <img
-                    alt="Pramp Logo"
+                    alt="InterviewWarmmup logo"
                     className="aspect-[1/1] overflow-hidden rounded-lg object-contain object-center"
                     height="100"
                     src="/icons/plataformas/google.png"
@@ -84,14 +100,14 @@ export default function Entrevistas() {
                     para entrenar tus respuestas a las entrevistas de trabajo.
                   </p>
                 </CardContent>
-              </Card>
-              <Card>
+              </Card></a>
+              <a href="https://www.perfectinterview.ai/" target="blank"><Card>
                 <CardHeader>
                   <CardTitle>Perfect Interview</CardTitle>
                 </CardHeader>
                 <CardContent className="flex items-center gap-4 p-4">
                   <img
-                    alt="Pramp Logo"
+                    alt="Perfect Interview Logo"
                     className="aspect-[1/1] overflow-hidden rounded-lg object-contain object-center"
                     height="100"
                     src="/icons/plataformas/perfectai.png"
@@ -103,8 +119,8 @@ export default function Entrevistas() {
                     realista impulsada por IA.
                   </p>
                 </CardContent>
-              </Card>
-              <Card>
+              </Card></a>
+              <a href="https://interviewing.io/" target="blank"><Card>
                 <CardHeader>
                   <CardTitle>Interviewing.io</CardTitle>
                 </CardHeader>
@@ -121,14 +137,14 @@ export default function Entrevistas() {
                     Google, Facebook y otras compañías importantes
                   </p>
                 </CardContent>
-              </Card>
-              <Card>
+              </Card></a>
+              <a href="https://chat.openai.com/" target="blank"><Card>
                 <CardHeader>
                   <CardTitle>Chat GPT</CardTitle>
                 </CardHeader>
                 <CardContent className="flex items-center gap-4 p-4">
                   <img
-                    alt="Interviewing.io Logo"
+                    alt="Chat GPT Logo"
                     className="aspect-[1/1] overflow-hidden rounded-lg object-contain object-center"
                     height="70"
                     src="/icons/plataformas/chatgpt.png"
@@ -139,14 +155,14 @@ export default function Entrevistas() {
                     tecnologias y tu CV y a practicar!
                   </p>
                 </CardContent>
-              </Card>
-              <Card>
+              </Card></a>
+              <a href="https://leetcode.com/" target="blank"><Card>
                 <CardHeader>
                   <CardTitle>LeetCode</CardTitle>
                 </CardHeader>
                 <CardContent className="flex items-center gap-4 p-4">
                   <img
-                    alt="Interviewing.io Logo"
+                    alt="LeetCode Logo"
                     className="aspect-[1/1] overflow-hidden rounded-lg object-contain object-center"
                     height="70"
                     src="/icons/plataformas/leetcode.png"
@@ -158,14 +174,14 @@ export default function Entrevistas() {
                     entrevistas técnicas.
                   </p>
                 </CardContent>
-              </Card>
-              <Card>
+              </Card></a>
+              <a href="https://www.hackerrank.com/" target="blank"><Card>
                 <CardHeader>
                   <CardTitle>Hackerrank</CardTitle>
                 </CardHeader>
                 <CardContent className="flex items-center gap-4 p-4">
                   <img
-                    alt="Interviewing.io Logo"
+                    alt="Hackerrank Logo"
                     className="aspect-[1/1] overflow-hidden rounded-lg object-contain object-center"
                     height="70"
                     src="/icons/plataformas/hackerrank.png"
@@ -176,7 +192,7 @@ export default function Entrevistas() {
                     resolviendo un kit de preparación para la entrevista.
                   </p>
                 </CardContent>
-              </Card>
+              </Card></a>
             </div>
           </div>
         </div>

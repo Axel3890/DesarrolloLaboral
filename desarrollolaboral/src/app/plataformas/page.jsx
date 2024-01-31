@@ -2,6 +2,22 @@ import { CardHeader, CardTitle, CardDescription, CardContent, CardFooter, Card }
 import { Button } from "@/components/ui/button"
 import Image from "next/image";
 
+export const metadata= {
+  title: "Desarrollo laboral - Plataformas para Practicar Entrevistas",
+  description: "Selección de plataformas en línea donde puedes practicar entrevistas técnicas y mejorar tus habilidades de comunicación para prepararte para tu próxima entrevista laboral.",
+  keywords: ["practicar entrevistas", "plataformas online", "tecnología", "empleo", "entrevistas técnicas"],
+  icons: {
+    icon: ['/favicon.ico']
+  },
+  og: {
+    title: "Desarrollo laboral - Plataformas para Buscar Trabajo",
+    description: "Lista de plataformas y recursos en línea para buscar oportunidades laborales en el campo de la tecnología y avanzar en tu carrera profesional.",
+    image: "/busqueda-image.jpg",
+    url: "https://desarrollo-laboral.vercel.app/plataformas"
+  }
+};
+
+
 export default function Plataformas() {
   return (
     (<section className="w-full py-12 md:py-24 lg:py-32">
@@ -77,7 +93,7 @@ export default function Plataformas() {
             </CardHeader>
             <CardContent className="space-y-2">
               <CardTitle>Computrabajos</CardTitle>
-              <CardDescription>Busca trabajo en Argentina? Computrabajo es la bolsa de empleo líder y con mas ofertas de trabajo de Argentina.<br></br></CardDescription>
+              <CardDescription>Busca trabajo en Argentina? Computrabajo es la bolsa de empleo líder y con mas ofertas de trabajo de Argentina.<br></br><br></br><br></br></CardDescription>
             </CardContent>
             <CardFooter>
               <a href="https://ar.computrabajo.com/" target="blank"><Button variant="link" className="bg-custom-green">Visitar</Button></a>

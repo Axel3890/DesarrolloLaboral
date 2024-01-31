@@ -1,7 +1,22 @@
-"use client"
+
 import React from 'react'
 import Link from "next/link"
 import Image from 'next/image'
+
+export const metadata = {
+  title: "Desarrollo laboral - Plantillas de CV",
+  description: "Plantillas de CV diseñadas para superar filtros ATS y destacar tu perfil profesional en la industria tecnológica.",
+  keywords: ["plantillas CV", "plantillas currículum", "tecnología", "empleo", "filtros ATS"],
+  icons: {
+    icon: ['/favicon.ico']
+  },
+  og: {
+    title: "Desarrollo laboral - Plantillas de CV",
+    description: "Plantillas de CV diseñadas para superar filtros ATS y destacar tu perfil profesional en la industria tecnológica.",
+    image: "/rocket.png",
+    url: "https://desarrollo-laboral.vercel.app/plantillas"
+  }
+};
 
 
 export default function Component() {
@@ -10,7 +25,7 @@ export default function Component() {
       <div className="container px-4 md:px-6">
         <div className="text-center space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-custom-green">Plantillas CV</h2>
-          <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">Plantillas de CV aptas para filtros ATS
+          <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-custom-white">Plantillas de CV aptas para filtros ATS
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
@@ -27,12 +42,12 @@ export default function Component() {
               width="300"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold">Professional</h3>
+              <h3 className="text-lg font-semibold">Plantilla 1</h3>
               <a
                 className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-custom-green shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-custom-green dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300 mt-4"
                 href="/cvs/ATS-resume.docx" download="Curriculum"
               >
-                Download
+                Descargar
               </a>
             </div>
           </div>
@@ -49,12 +64,12 @@ export default function Component() {
               width="300"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold">Creative</h3>
+              <h3 className="text-lg font-semibold">Plantilla 2</h3>
               <a
                 className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-custom-green dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300 mt-4"
                 href="/cvs/ATS-resume2.docx" download="Curriculum"
               >
-                Download
+                Descargar
               </a>
             </div>
           </div>
@@ -71,12 +86,12 @@ export default function Component() {
               width="300"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold">Modern</h3>
+              <h3 className="text-lg font-semibold">Plantilla 3</h3>
               <a
                 className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-custom-green dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300 mt-4"
                 href="/cvs/ATS-resume3.docx" download="Curriculum"
               >
-                Download
+                Descargar
               </a>
             </div>
           </div>
@@ -93,12 +108,12 @@ export default function Component() {
               width="300"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold">Creative</h3>
+              <h3 className="text-lg font-semibold">Plantilla 4</h3>
               <a
                 className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-custom-green dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300 mt-4"
                 href="/cvs/ATS-resume4.docx" download="Curriculum"
               >
-                Download
+                Descargar
               </a>
             </div>
           </div>
@@ -115,12 +130,12 @@ export default function Component() {
               width="300"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold">Creative</h3>
+              <h3 className="text-lg font-semibold">Plantilla 5</h3>
               <a
                 className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-custom-green dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300 mt-4"
                 href="/cvs/ATS-resume5.docx" download="Curriculum"
               >
-                Download
+                Descargar
               </a>
             </div>
           </div>
@@ -137,12 +152,12 @@ export default function Component() {
               width="300"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold">Creative</h3>
+              <h3 className="text-lg font-semibold">Plantilla 6</h3>
               <a
                 className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-custom-green dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300 mt-4"
                 href="/cvs/ATS-resume6.docx" download="Curriculum"
               >
-                Download
+                Descargar
               </a>
             </div>
           </div>
