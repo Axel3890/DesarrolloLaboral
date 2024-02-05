@@ -83,7 +83,7 @@ export default function Entrevistas() {
               </p>
             </div>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-10 bg-cust ">
-              <a href="https://grow.google/certificates/interview-warmup/" target="blank" className="bg-custom-white"><Card className="bg-custom-white">
+              <a href="https://grow.google/certificates/interview-warmup/" target="blank"><Card>
                 <CardHeader>
                   <CardTitle>Interview Warmup</CardTitle>
                 </CardHeader>
