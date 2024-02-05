@@ -71,7 +71,7 @@ export default function Entrevistas() {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-custom-black dark:bg-gray-800">
         <div className="container px-4 md:px-6">
           <div className="space-y-8">
             <div className="space-y-2 text-center">
@@ -82,8 +82,8 @@ export default function Entrevistas() {
                 Utiliza estas plataformas para practicar tus entrevistas.
               </p>
             </div>
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
-              <a href="https://grow.google/certificates/interview-warmup/" target="blank"><Card>
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-10 bg-cust ">
+              <a href="https://grow.google/certificates/interview-warmup/" target="blank" className="bg-custom-white"><Card className="bg-custom-white">
                 <CardHeader>
                   <CardTitle>Interview Warmup</CardTitle>
                 </CardHeader>

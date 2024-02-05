@@ -76,7 +76,7 @@ function Cvtips() {
             </a>
           </CardFooter>
         </Card>
-        <Card className="mx-auto max-w-sm">
+        <Card className="mx-auto max-w-sm bg-custom-black">
           <CardHeader>
             <CardTitle className="text-3xl text-custom-green">Tip 2</CardTitle>
             <CardDescription className="text-custom-white text-2xl">
@@ -120,7 +120,7 @@ function Cvtips() {
             </a>
           </CardFooter>
         </Card>
-        <Card className="mx-auto max-w-sm">
+        <Card className="mx-auto max-w-sm bg-custom-black">
           <CardHeader>
             <CardTitle className="text-3xl text-custom-green">Tip 3 </CardTitle>
             <CardDescription className="text-custom-white text-2xl">
