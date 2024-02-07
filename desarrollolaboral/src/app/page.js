@@ -1,6 +1,17 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link"
+import { useEffect } from "react";
+import Swal from "sweetalert2";
 export default function Home() {
+  useEffect(() => {
+    Swal.fire({
+      title: "Atencion",
+      text: "No soy ningun experto en el tema, simplemente reuní distinta información, para guiarte mejor en una busqueda laboral por favor consulta a un profesional del área",
+      icon: "warning",
+      confirmButtonText: "Entendido",
+    });
+  }, []);
   return (
 <div className="justify-center items-center m-auto h-auto">
   <section key="1" className="w-full py-12 md:py-24 lg:py-32">
